@@ -5,41 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <style>
-   li.orange {
+  <style>  
+   /* 자식, 후손, 형제 선택자는 가장 마지막 선택자가 타겟이고 앞은 전부 조건이다 */
+
+   div .orange {
     background: orange;
    }
 
-   li#apple.green {
-    color: yellowgreen;
+   body div ul {
+    list-style: none;
    }
 
-   h1.yellow.low#change.primary {
-    background: violet;
+   body div em {
+    background: skyblue;
    }
-  
+
+   #abc .def.ghi div.zx#ff {
+    color: #000;
+   }
+
   </style>
 
 </head>
 <body>
 
-  <!-- ul.food>li.korean*4 -->
-  <ul class="food">
-    <li class="korean"></li>
-    <li class="korean"></li>
-    <li class="korean"></li>
-    <li class="korean"></li>
-  </ul>
-
   <h1 class="yellow low primary" id="change">안녕하세요</h1>
-  
+
+  <em>파이팅</em>
+
   <!-- div>ul>li*3 -->
   <div>
-    <ul>
-      <li id="apple" class="green">사과</li>
-      <li >포도</li>
-      <li class="orange">오렌지</li>
-    </ul>
+    <em>해야지</em>
+    
+      <ul>
+        <li id="apple" class="green">사과</li>
+        <li >포도</li>
+        <li class="orange">오렌지</li>
+      </ul>
+    
 
     <!-- div+p+span -->
     <div class="green">당근</div>
