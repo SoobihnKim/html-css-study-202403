@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 70%;
+  margin: auto;
+  border: 3px solid rgb(209, 125, 125);
+  background: rgb(241, 208, 214);
+  padding: 10px 20px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.content1 {
+  width: 45%;
+  float: left;
+  background: rgb(218, 236, 180);
+  padding: 10px;
+  margin: auto;
+
+}
+
+.content2 {
+  width: 45%;
+  background: rgb(150, 125, 125);
+  float: left;
+  padding: 10px;
+  margin: auto;
+  margin-left: 50px;
+}

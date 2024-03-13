@@ -1,0 +1,109 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  border: 3px double gray;
+}
+
+
+.yellow {
+  color: yellow;
+  display: inline;
+}
+
+.title {
+  font-family: serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  background: lightgray;
+
+}
+
+.sub-title {
+  font-size: 18px;
+  text-align: center;
+  background: rgb(78, 55, 55);
+  color: white;
+  display: inline block;
+  padding: 10px;
+}
+
+.flower {
+  background: gray;
+  padding: 10px;
+}
+
+.flower > * {
+  float: left;
+  width: 20%;
+  margin-right: 4%;
+}
+
+.flower > *:first-child {
+  margin-left: 4%;
+}
+
+p {
+  width: 160px;
+  height: 160px;
+  text-align: left;
+  padding: 15px;
+
+}
+
+.tulipct {
+  background: red;
+}
+
+.jebict {
+  background: violet;
+}
+
+.hobakct {
+  background: orange;
+}
+
+.sunflowerct {
+  background: yellow;
+}
+
+.aa {
+  width: 160px;
+  height: 140px;
+  background-position: 5px 5px;
+  background-size: 150px 130px;
+  background-repeat: no-repeat;
+}
+
+
+.box1 {
+  background-image: url('../../img/tulip.jpg');
+  background-color: red;
+}
+
+.box2 {
+  background-image: url('../../img/jebi.jpg');
+  background-color: violet;
+}
+
+.box3 {
+  background-image: url('../../img/hobak.jpg');
+  background-color: orange;
+}
+
+.box4 {
+  background-image: url('../../img/sunflower.jpg');
+  background-color: yellow;
+}
