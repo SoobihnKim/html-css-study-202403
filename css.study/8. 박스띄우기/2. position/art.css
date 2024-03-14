@@ -1,0 +1,174 @@
+@import url(../../common.css);
+
+body {
+  background-color: gray;
+}
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  /* height: 100px; */
+  background-color: orange;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 700;  
+}
+
+header span {
+  font-size: 14px;
+  display: block;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.stit {
+  background-color: #b6abab;
+  /* margin-bottom: 2px; */
+  font-size: 13px;
+  height: 15px;
+}
+
+/* begin container style */
+.container {
+  background: #fff;
+}
+
+.container .side-menu {
+  /* border: 2px solid yellow; */
+  width: 20%;
+  float: left;
+  background-color: #fff;
+
+}
+
+.container .side-menu h3 {
+  background-color: brown;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.container .side-menu li {
+  margin-bottom: 10px;
+  text-decoration: underline;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.container .main-content {
+  /* border: 2px solid yellow; */
+  width: 60%;
+  float: left;
+  background-color: #ccc;
+  /* margin:  ; */
+
+}
+
+.container .main-content .art-piece {
+  margin-top: 10px;
+}
+
+.container .main-content .art-piece .title {
+  background-color: #123456;
+  color: #fff;
+  padding: 5px;
+  text-indent: 5px;
+  font-size: 13px;
+  margin: 7px;
+
+}
+
+.container .main-content .art-piece .artist {
+  color: #123456;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.container .main-content .art-piece .detail {
+  font-size: 10px;
+  padding: 10px;
+  color: #123456;
+}
+
+
+.container .banner {
+  /* border: 2px solid yellow; */
+  width: 20%;
+  float: left;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.container .banner .all {
+  color: gray;
+  text-decoration: underline;
+  display: block;
+  
+}
+
+.container .banner .love {
+  color: orange;
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 3px;
+  display: block;
+  line-height: 40px;
+}
+
+.container .banner strong {
+  color: black;
+  display: block;
+}
+
+.container .banner .link{
+  text-align: left;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.container .banner .link a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.container .banner .link span {
+  text-align: left;
+  display: block;
+  margin: 0;
+  font-weight: normal;
+}
+
+.container .banner ul>:nth-child(2){
+  margin: 10px 0;
+}
+
+/* footer */
+
+footer {
+  background-color: #123456;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+  footer a {
+    text-decoration: underline;
+  }
+
+footer span {
+  display: inline;
+  font-size: 10px;
+}
